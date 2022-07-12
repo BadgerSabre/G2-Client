@@ -1,0 +1,7 @@
+.top-nav{
+    color: rgba(238, 241, 247, 0.9);
+    background: rgba(0,0,0,0.5);
+    /* background: rgba(16, 22, 35, 0.75); */
+    height: 4.5em;
+    /* border-bottom: 1px solid rgba(203, 212, 231, 0.55); */
+}
