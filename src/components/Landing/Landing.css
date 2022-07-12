@@ -1,0 +1,41 @@
+.wrapper-landing {
+    background: linear-gradient(#141e30, #243b55);
+}
+.landing-service {
+    min-height: 25em;
+    margin: 1em;
+    padding: 0.75em;
+    padding-bottom: 5em;
+}
+
+.landing-service h3 {
+    text-align: center;
+    padding: 0.5em 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.landing-service p {
+    padding: 1.25em 0;
+    font-size: 1.1em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.landing-service img {
+    box-shadow: 0 12px 25px rgba(20, 30, 48, 0.75);
+}
+
+#about {
+    color: rgba(237, 241, 247, 1);
+    text-decoration: underline;
+    padding-bottom: 3.5em;
+    padding-top: 3.5em;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.landing-container {
+    color: white;
+    padding-top: 2em;
+    border-top: 2px solid rgba(184, 203, 224, 0.75);
+    min-height: 80vh;
+    background: linear-gradient(#36577d, #4570a1);  
+}

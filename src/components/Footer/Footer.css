@@ -1,0 +1,36 @@
+.footer {
+    /* border-top: 1px solid rgba(203, 212, 231, 0.55); */
+    padding: 2em;
+    color: rgba(238, 241, 247, 0.9);
+    background: rgba(0,0,0,0.5);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.github span {
+    margin-left: 1em;
+}
+
+.f-sec {
+    text-align: center;
+}
+
+.f-sec h5 {
+    padding-bottom: 0.5em;
+}
+
+.github {
+    margin: 0.5em;
+    font-size: 1.1em;
+}
+
+.github:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.github{
+    color:#03E9F4;
+}
+
+.github svg path {
+    fill: #03E9F4;
+}
