@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import CreateInputs from './inputs'
-import CreateDropDowns from './dropdowns'
+import CreateInputs from './Inputs'
+import CreateDropDowns from './Dropdowns'
 import { useDispatch } from 'react-redux'
 import { createOpp } from '../../../../actions/sales'
 import { fetchCustomers, fetchEmployeesByWC, fetchProducts } from '../../../../api'

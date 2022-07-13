@@ -1,13 +1,12 @@
 import Default from '../Default/Default'
-// import CreateOpportunity from './Opportunities/Create/Create'
-// import UpdateOpportunity from './Opportunities/Update/Update'
+import CreateOpportunity from './Opportunities/Create/Create';
+import UpdateOpportunity from './Opportunities/Update/Update'
 
 const Sales = () => {
 
     const children = <>
-        Sales Module
-        {/* <CreateOpportunity />
-        <UpdateOpportunity /> */}
+        <CreateOpportunity />
+        <UpdateOpportunity />
     </>
 
     return (

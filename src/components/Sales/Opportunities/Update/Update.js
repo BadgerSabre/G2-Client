@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-import CreateInputs from '../create/inputs'
-import UpdateDropDowns from './dropdowns'
-import { useDispatch } from 'react-redux'
+import CreateInputs from '../Create/Inputs'
+import UpdateDropDowns from './Dropdowns'
+// import { useDispatch } from 'react-redux'
 import { fetchEmployeesByWC } from '../../../../api'
 
 const UpdateOpportunity = () => {
-    const dispatch = useDispatch()
+    // const dispatch = useDispatch()
     const [pms, setPMs] = useState([])
     const [formData, setFormData] = useState({ project_number: '', year: '', revenue: '', ship_date: '', status: 'Lead', project_manager: '',})
     const formInputs = [{label: "Year", value: "year"}, {label: "Revenue", value: "revenue"}, {label: "Ship Date", value: "ship_date"}]

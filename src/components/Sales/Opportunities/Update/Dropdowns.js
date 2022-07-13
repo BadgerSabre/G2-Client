@@ -1,5 +1,5 @@
 import Select from 'react-select'
-import { statusOptions, pmOptions, salesOptions, customerOptions, stateOptions } from "../../../../lib/dropdown_options"
+import { statusOptions } from "../../../../lib/dropdown_options"
 
 const UpdateDropDowns = ({ setFormData, formData, customers, pms, salespeople }) => {
     const formDropdowns = [{label: "Status", value: 'status', options: statusOptions}, {label: "Project Manager", value: 'project_manager', options: pms}]

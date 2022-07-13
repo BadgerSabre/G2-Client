@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Select from 'react-select'
-import { statusOptions, pmOptions, salesOptions, customerOptions, stateOptions } from "../../../../lib/dropdown_options"
+import { statusOptions, stateOptions } from "../../../../lib/dropdown_options"
 
 const CreateDropDowns = ({ setFormData, formData, customers, pms, salespeople, products }) => {
     const [numProducts, setNumProducts] = useState([{product: ''}])
