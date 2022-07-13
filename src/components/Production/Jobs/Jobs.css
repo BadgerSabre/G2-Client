@@ -1,0 +1,15 @@
+.task {
+    min-height: 6em;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+    text-align: center;
+}
+#production-jobs {
+    padding: 10em 0;
+} 

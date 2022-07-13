@@ -3,6 +3,7 @@ import Landing from './components/Landing/Landing'
 import Sales from './components/Sales/Sales'
 import PM from './components/PM/PM'
 import Supervisor from './components/Supervisor/Supervisor'
+import Production from './components/Production/Production'
 import "./App.css"
 
 const App = () => {
@@ -11,8 +12,9 @@ const App = () => {
             <Routes>
                 <Route path='/' element={<Landing />} />
                 <Route path='/sales' element={<Sales />} />
-                <Route path='/PM' element={<PM />} />
+                <Route path='/pm' element={<PM />} />
                 <Route path='/supervisor' element={<Supervisor />} />
+                <Route path='/production' element={<Production />} />
             </Routes>
         </BrowserRouter>
     )
