@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './components/Landing/Landing'
 import Sales from './components/Sales/Sales'
 import PM from './components/PM/PM'
+import "./App.css"
 
 const App = () => {
     return (
