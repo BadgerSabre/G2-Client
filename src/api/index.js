@@ -54,3 +54,4 @@ export const fetchProducts = async () => {
 }
 
 export const createNewOpp = (formData) => axios.post(`${url}/opp`, formData)
+export const login = (loginCredientials) => axios.post(`${url}/auth`,loginCredientials)

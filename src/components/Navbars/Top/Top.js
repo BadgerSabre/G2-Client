@@ -1,10 +1,10 @@
 import './Top.css'
-const TopNav = () => {
+const TopNav = ({name}) => {
     const temp = ["Option 1", "Option 2", "Option 3"]
     return (
         <div className="top-nav d-flex align-items-center">
             <div className='col-2'>
-                <h3 style={{textAlign: 'center'}}>(User)</h3>
+                <h3 style={{textAlign: 'center'}}>{name}</h3>
             </div>
             <div className="col-7">
             
